@@ -6,19 +6,6 @@ import ChangePassword from "./ChangePassword";
 function Profile() {
   const [isLoading, setIsLoading] = useState(true);
   const { session } = useSessionData();
-  //   useEffect(() => {
-  //     getSession().then((session) => {
-  //       if (!session) {
-  //         window.location.href = "/login";
-  //       } else {
-  //         setIsLoading(false);
-  //       }
-  //     });
-  //   }, []);
-
-  //   if (isLoading) {
-  //     return <p className="mt-5 text-center">Loading...</p>;
-  //   }
   return (
     <>
       <p className="text-lg mt-3 mb-2">Profile</p>
